@@ -51,6 +51,9 @@ graph LR
 * **Technique:** Trained an **ARIMA\_PLUS** Time Series model directly inside the data warehouse.  
 * **Accuracy:** Generated forecasts with a 90% Confidence Interval.  
 
+![SQL BigQuery](images/BigQuery_cloud_SQL.PNG)
+
+
 ---
 
 ## **4\. Dashboard & Visuals**
@@ -59,7 +62,7 @@ The "Monday Morning Monitor" was designed using the **Z-Pattern** for rapid exec
 
 ### **The "Monday Morning Monitor"**
 
-*(Place a screenshot of your Looker Studio Dashboard here)*
+![Main_View_Dashboard](images/The_Monday_Morning_Monitor_page-0001.jpg)
 
 **Design Philosophy:**
 
@@ -74,4 +77,3 @@ The "Monday Morning Monitor" was designed using the **Z-Pattern** for rapid exec
 * **Window Functions:** `LAG()`, `ROW_NUMBER()`, `SUM() OVER()`  
 * **CTE (Common Table Expressions):** Modularizing complex logic.  
 * **Data Modeling:** Fact/Dimension Star Schema design.  
-* **Orchestration:** Scheduled Queries for Incremental Loads.
